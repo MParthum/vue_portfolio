@@ -20,6 +20,9 @@ export default {
         background-position: center right;
         background-size: cover;
         color: #fff;
+        max-width: 1000px;
+        margin: 2em auto;
+        border-radius:5px;
     }
 
     span {
