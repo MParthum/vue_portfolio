@@ -32,6 +32,6 @@ export default {
     .testimonial {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 </style>

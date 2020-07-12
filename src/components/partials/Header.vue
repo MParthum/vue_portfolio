@@ -14,7 +14,7 @@
                         </router-link>
                     </li>
                     <li>
-                        <router-link to="/about">
+                        <router-link to="/contact">
                             <i class="fas fa-envelope"></i>
                         </router-link>
                     </li>
