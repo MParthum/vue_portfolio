@@ -4,7 +4,7 @@
     <Work v-bind:projects="projects"/>
     <Experience />
     <Testimonials v-bind:testimonials="testimonials"/>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Contact />
   </div>
 </template>
 
@@ -14,16 +14,16 @@ import Greeting from '@/components/partials/Greeting.vue'
 import Work from '@/components/partials/Work.vue'
 import Experience from '@/components/partials/Experience.vue'
 import Testimonials from '@/components/partials/Testimonials.vue'
-import HelloWorld from '@/components/HelloWorld.vue'
+import Contact from '@/components/partials/Contact.vue'
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld,
     Greeting,
     Work,
     Experience,
-    Testimonials
+    Testimonials,
+    Contact
   },
   data() {
     return {
