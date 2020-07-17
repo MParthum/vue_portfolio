@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import H2 from '@/components/partials/H2.vue'
-import TestimonialCard from '@/components/partials/TestimonialCard'
+import H2 from '@/components/H2.vue'
+import TestimonialCard from '@/components/TestimonialCard'
 
 export default {
     name: "Testimonials",

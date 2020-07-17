@@ -10,11 +10,11 @@
 
 <script>
 // @ is an alias to /src
-import Greeting from '@/components/partials/Greeting.vue'
-import Work from '@/components/partials/Work.vue'
-import Experience from '@/components/partials/Experience.vue'
-import Testimonials from '@/components/partials/Testimonials.vue'
-import Contact from '@/components/partials/Contact.vue'
+import Greeting from '@/components/Greeting.vue'
+import Work from '@/components/Work.vue'
+import Experience from '@/components/Experience.vue'
+import Testimonials from '@/components/Testimonials.vue'
+import Contact from '@/components/Contact.vue'
 
 export default {
   name: 'Home',

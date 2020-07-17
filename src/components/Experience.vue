@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import H2 from "@/components/partials/H2.vue"
+import H2 from "@/components/H2.vue"
 
 export default {
     name: "Experience",

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Header from './components/partials/Header'
+import Header from './components/Header'
 var currentYear = new Date().getFullYear()
 
 

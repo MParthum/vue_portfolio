@@ -21,7 +21,7 @@ Vue.use(VueRouter)
   {
     path: '/contact',
     name: 'Contact',
-    component: () => import(/* webpackChunkName: "about" */ '../components/partials/Contact.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../components/Contact.vue')
   }
 ]
 

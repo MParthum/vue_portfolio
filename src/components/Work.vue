@@ -11,7 +11,7 @@
 
 <script>
 import ProjectCard from "./ProjectCard"
-import H2 from "../partials/H2"
+import H2 from "./H2"
 
 export default {
   name: "Work",
