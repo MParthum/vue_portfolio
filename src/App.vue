@@ -86,4 +86,13 @@ export default {
     color: #1d3557;
   }
 
+   .github-btn{
+        background: #24292e;
+    }
+
+    .github-btn:hover{
+        background: #fcfafa;
+        color: #24292e
+    }
+
 </style>

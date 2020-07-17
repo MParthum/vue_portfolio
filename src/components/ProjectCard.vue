@@ -3,7 +3,7 @@
        <img :src="project.img" alt="broken">
        <h3>{{project.title}}</h3>
        <p>{{project.description}}</p>
-       <router-link to="/about" class="btn">Learn More</router-link>
+       <router-link to="/projects" class="btn">Learn More</router-link>
     </div>
 </template>
 
