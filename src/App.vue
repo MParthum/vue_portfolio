@@ -4,7 +4,7 @@
     <router-view/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
+      <router-link to="/projects">Projects</router-link> |
       <router-link to="/contact">Contact</router-link>
     </div>
     <p>Copyright &copy; {{currentYear}} Mike Parthum</p>
@@ -91,7 +91,7 @@ export default {
     }
 
     .github-btn:hover{
-        background: #fcfafa;
+        background: #fff;
         color: #24292e
     }
 
