@@ -43,5 +43,16 @@ export default {
     .project-btns{
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
     }
+
+    .btn {
+        margin: 1em auto;
+    }
+
+    @media screen and (max-width: 600px) {
+        p {
+            margin: .5em;
+    }
+}
 </style>
