@@ -21,7 +21,7 @@ export default {
         max-width: 450px;
         margin: 2em auto;
         border-radius: 5px;
-        background-color: #f3f3f3;
+        background-color: #fff;
     }
 
     a {

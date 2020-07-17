@@ -5,6 +5,7 @@
             <p>Learn more on my LinkedIn page or my resume below!</p>
             <div class="icon-div">
                 <a href="https://www.linkedin.com/in/michael-parthum/"><div class="icon linkedin"><i class="fab fa-linkedin"></i></div></a>
+                <a href="https://github.com/MParthum"><div class="icon github"><i class="fab fa-github"></i></div></a>
                 <a href="/MikeParthumResume.pdf" download="MikeParthumResume.pdf"><div class="icon pdf"><i class="fas fa-file-pdf"></i></div></a>
                 
             </div>
@@ -42,8 +43,8 @@ export default {
         flex-wrap: wrap;
         justify-content: space-around;
         border-radius:5px;
-        background-color: #1d3557;
-        color: #d3d3d3;
+        background-color: #457b9d;
+        color: #fff;
     }
 
     a {
@@ -52,7 +53,7 @@ export default {
 
     img {
         margin: 2em auto;
-        border: 3px solid #d3d3d3;
+        border: 3px solid #fff;
         border-radius: 50%;
     }
 
@@ -74,6 +75,7 @@ export default {
 
     .icon {
         border-radius: 50%;
+        border: 1px solid #fff;
         width: 50px;
         height: 50px;
         transition: ease-in all 0.1s;
@@ -91,6 +93,11 @@ export default {
 
     .linkedin {
         background-color: #0077b5;
+        
+    }
+
+    .github {
+        background-color: #24292e;
         
     }
 
