@@ -41,6 +41,8 @@ export default {
   body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4;
+    background-color: #fcfafa;
+    margin: -10px 0 0 0;
   }
 
   #app {

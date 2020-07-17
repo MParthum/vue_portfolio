@@ -7,18 +7,9 @@
                 </router-link>
             </div>
             <div class="links">
-                <ul>
-                    <li>
-                        <router-link to="/about">
-                            <i class="fas fa-code"></i>
-                        </router-link>
-                    </li>
-                    <li>
-                        <router-link to="/contact">
-                            <i class="fas fa-envelope"></i>
-                        </router-link>
-                    </li>
-                </ul>
+                <router-link to="/projects">
+                    <i class="fas fa-code"></i>
+                </router-link>
             </div>
         </nav>
     </div>
@@ -31,9 +22,8 @@ export default {
 </script>
 
 <style scoped>
-
-    .nav-container{
-        box-shadow: 2px 2px 2px rgba(0,0,0,.3);
+    .nav-container {
+        background-color: #fff;
     }
 
     nav {
@@ -49,18 +39,13 @@ export default {
         margin: 5px 15px;
     }
 
-    ul {
-        list-style: none;
-    }
-
-    li {
-        display: inline;
-        padding:  5px 15px;
-        font-size: 1.8em;
+    .links {
+        margin: auto 1em;
     }
 
     i{
         color: #1d3557;
+        font-size: 1.8em;
      }
     
     i:hover {
